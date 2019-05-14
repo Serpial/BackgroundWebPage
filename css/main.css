@@ -1,0 +1,53 @@
+@import "normalize.css";
+
+.form__background--image {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    z-index: -1
+}
+
+.form__foreground { 
+    position: relative;
+    font-family: Verdana, sans-serif
+}
+
+.card {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2%;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.8;
+    color: white
+}
+
+.header, .footer {
+    font-size: 80%;
+    left: 0;
+    right: 0;
+    text-align: right
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    background: #222222;
+    color: white;
+    opacity: 0.8;
+    z-index: 1;
+    padding: 0.2rem 22% 0.2rem 22%
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #efefef;
+    opacity: 0.6;
+    margin: 0 20% 0 20%;
+    padding: 0.2rem 3% 0.2rem 3%
+}
+
+.footer--link { color: black }
