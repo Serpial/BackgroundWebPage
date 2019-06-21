@@ -1,5 +1,9 @@
 @import "normalize.css";
 
+h1 {
+    text-align: center;
+    font: rgb(60,60,60)
+}
 .form__background--image {
     position: fixed;
     height: 100%;
