@@ -1,4 +1,4 @@
 $("document").ready(function() {
-    setBackground();
     
+    var json = requestAlbum();
 });
