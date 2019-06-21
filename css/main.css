@@ -2,7 +2,7 @@
 
 h1 {
     text-align: center;
-    font: rgb(60,60,60)
+    color: rgb(60,60,60)
 }
 .form__background--image {
     position: fixed;
@@ -44,6 +44,16 @@ h1 {
     opacity: 0.8;
     z-index: 1;
     padding: 0.2rem 22% 0.2rem 22%
+}
+
+.header__github--image {
+    height: 13px;
+    width: 13px;
+}
+
+.header__github--link {
+    color:white;
+    text-decoration: none
 }
 
 .footer {
